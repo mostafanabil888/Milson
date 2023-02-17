@@ -1,9 +1,7 @@
 import React from 'react'
 import Styles from '../styles/WhyMilson.module.scss'
-import Reveal from 'react-reveal/Reveal';
 export default function WhyMilson() {
   return (
-    <Reveal effect="fadeInUp">
     <div className={`my-5 px-md-5 px-4 ${Styles.WhyMilson}`}>
             <h2 className='text-center mb-3 mb-md-5'>Why choose Milson</h2>
             <div className="row align-items-center justify-content-center py-3 mb-md-5 mb-3">
@@ -35,6 +33,5 @@ export default function WhyMilson() {
                 <span>Calculate Quote</span>
         </div>
     </div>
-    </Reveal>
   )
 }
