@@ -1,0 +1,48 @@
+.GetTranslation {
+    background-color: #F0F4F9;
+    padding: 7rem 0;
+    label {
+        color: #768092;
+        font-size: 14px;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+    h1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    input,
+    select {
+        padding: 12px 22px;
+        background-color: #fff;
+        border: 1px solid #D2D6D9;
+        border-radius: 8px !important;
+        height: auto;
+        color: #000000;
+        font-weight: 500;
+        width: 100%;
+        &:focus{
+            outline: none;
+            border: 1px solid #9b51e0;
+        }
+    }
+   .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F0F4F9;
+    background: #5857FF;
+    border-radius: 50px;
+    color: white;
+    padding: 1rem;
+    border: none;
+    span{
+        padding-right: 0.5rem;
+    }
+   }
+   p{
+    padding: 10px;
+    background: #D9DAFF;
+    border-radius: 33px;
+   }
+}

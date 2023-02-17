@@ -1,0 +1,41 @@
+.Subscribe {
+    background-color: #000000;
+    border-top: 1px solid #768092;
+    color: #fff;
+    padding: 2rem 0;
+    img {
+        background-color: #fff;
+        margin-right: 1rem;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    input {
+        border: 1px solid #FFFFFF;
+        background: black;
+        padding: 0.5rem 0;
+        color: #fff;
+    }
+    .email{
+        border-radius: 50px 0 0 50px;
+        width: 70%;
+    }
+    .submit {
+        background-color: #5857FF;
+        border-radius: 0 50px 50px 0px;
+        width: 30%;
+    }
+
+    svg {
+        width: 50px;
+        height: 50px;
+        padding: 0.5rem;
+        cursor: pointer;
+        &:hover {
+            background-color: #495057;
+            border-radius: 10px;
+        }
+    }
+}

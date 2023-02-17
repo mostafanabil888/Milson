@@ -1,0 +1,38 @@
+.GetinTouch{
+    label{
+        display: block;
+    }
+    p{
+        color: #33475b;
+    font-size: 14px;
+    }
+    input{
+        width: 100%;
+        max-width: 500px;
+        height: 40px;
+        padding: 9px 10px;
+        border: 1px solid #c87872;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 22px;
+        color: #33475b;
+        
+        border-radius: 15px;
+        &:focus{
+            outline: none;
+            border: 1px solid #cbd6e2;
+        }
+    }
+    span{
+        background-color: black;
+        color: #fff;
+        padding: 9px 10px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+    }
+}
