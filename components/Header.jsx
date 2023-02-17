@@ -33,7 +33,7 @@ export default function Header() {
                                 <Link href='/Translation'>Sign In</Link>
                             </div>
                            <div className={Styles.RegisterBox}>
-                            <span>Don't have an account?</span>
+                            <span>Dont have an account?</span>
                             <Link href="/Catogries" className='mt-1 m-md-0'>Register</Link>
                            </div>
                             </div>

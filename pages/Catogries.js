@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Head from 'next/head'
 import Styles from "../styles/Catogries.module.scss"
 import { BsFillEnvelopeOpenFill,BsPeopleFill } from 'react-icons/bs'
@@ -13,7 +14,7 @@ export default function Catogries() {
             </Head>
             <div className={Styles.Catogries}>
                 <nav className='d-flex align-items-center justify-content-end'>
-                    <img className='mt-3 m-auto mx-md-5' src='/img/logo.jpg' width='140' height='100' />
+                    <Image alt='logo' className='mt-3 m-auto mx-md-5' src='/img/logo.jpg' width='140' height='100' />
                 </nav>
                 <h2 className='mt-3 text-center'>Open a free account</h2>
                 <p className='mt-3 d-block text-center'>Start localizing today.</p>
