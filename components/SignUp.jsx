@@ -22,7 +22,7 @@ export default function SignUp({ prop, Url }) {
           <input type="password" placeholder='confirm' />
           <p>I agree to the  Terms and Conditions</p>
           <div className={`text-light ${styles.btn}`}>
-            <Link href='/Translation'>Sign Up</Link>
+            <Link href={`/${Url}`}>Sign Up</Link>
           </div>
           <span>Already signed up?</span>
           <Link href={`/${Url}`}>log iin now</Link>
