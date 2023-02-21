@@ -1,0 +1,15 @@
+.comment {
+    background-image: url('../public/img/comment.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+
+    p {
+        color: #fff;
+        font-size: 1.5rem;
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+}

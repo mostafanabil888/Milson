@@ -10,7 +10,7 @@ export default function RegisterEnglish() {
         <link rel="icon" href="/img/logo.jpg" />
       </Head>
       <div>
-        <SignUp prop={"Join to English"} Url={"Translation"} />
+        <SignUp prop={"Join to English"} Url={"English"} />
       </div>
     </>
 

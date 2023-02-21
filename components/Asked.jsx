@@ -8,13 +8,13 @@ export default function Asked() {
             {
                 id: 1,
                 title: "How is the price calculated?",
-                body : "The cost of translation services ranges depending on your project’s word count, as well as the languages and industry expertise required for your project. You can calculate the cost of your online translation by heading to our online translation Wizard."
+                body : "The cost of translation services ranges depending on your project’s word count, as well as the languages and industry expertise required for your project. For pricing, submit your file to get a quote within one working day."
 
             },
             {
                 id: 2,
                 title: "Do you have different pricing levels?",
-                body : "The cost of translation services ranges depending on your project’s word count, as well as the languages and industry expertise required for your project. You can calculate the cost of your online translation by heading to our online translation Wizard."
+                body : "The cost of translation services ranges depending on your project’s word count, as well as the languages and industry expertise required for your project. You can calculate the cost of your online translation by heading to our online translation Wizard. Our prices are highly competitive."
 
             },
             {

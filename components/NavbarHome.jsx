@@ -3,7 +3,7 @@ import Styles from "../styles/NavbarHome.module.scss"
 import Link from 'next/link'
 export default function NavbarHome() {
     return (
-        <div className={`d-flex px-4 py-2 align-items-center justify-content-end ${Styles.NavbarHome}`}>
+        <div className={`d-flex px-4 py-2 align-items-center  ${Styles.NavbarHome}`}>
                 <img
                     src="/img/logo.jpg"
                     height={50}

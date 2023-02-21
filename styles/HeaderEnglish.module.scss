@@ -1,0 +1,29 @@
+.HeaderEnglish {
+    background-image: url('/img/headerenglish.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    margin-top: 2.8rem;
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: "Fira Sans", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: "Open Sans", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    a {
+        border-color: rgb(223, 128, 17);
+        background: rgb(223, 128, 17);
+        color: rgb(0, 0, 0);
+        padding: 20px 32px;
+    }
+}

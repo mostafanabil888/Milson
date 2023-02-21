@@ -1,0 +1,21 @@
+.Footer{
+    background-color:#ebecee;
+    padding: 3rem 0;
+    ul{
+        list-style: none;
+            color: black;
+            font-size: large;
+    }
+    p{
+        color: rgba(152, 152, 152, 1);
+        font-weight: 700;
+    }
+    span{
+        padding-left: 0.5rem;
+        font-weight: bold;
+        font-size: larger;
+       &:hover{
+        text-decoration: underline;
+       }
+    }
+}

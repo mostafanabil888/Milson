@@ -3,7 +3,7 @@ import Styles from '../styles/WhyMilson.module.scss'
 export default function WhyMilson() {
   return (
     <div className={`my-5 px-md-5 px-4 ${Styles.WhyMilson}`}>
-            <h2 className='text-center mb-3 mb-md-5'>Why choose Milson</h2>
+            <h2 className='text-center mb-3 mb-md-5'>Why Choose Milson:</h2>
             <div className="row align-items-center justify-content-center py-3 mb-md-5 mb-3">
                 <div className={`col-12 col-md-4 px-0 px-md-2 ${Styles.box}`}>
                    <div>
@@ -29,9 +29,9 @@ export default function WhyMilson() {
               
               
             </div>
-            <div className='text-center'>
+            {/* <div className='text-center'>
                 <span>Calculate Quote</span>
-        </div>
+        </div> */}
     </div>
   )
 }

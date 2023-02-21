@@ -23,7 +23,7 @@ export default function GetinTouch() {
                    <label htmlFor="First name">Corporate Email</label>
                     <input  type="email" name="Email" id="Email" />
                    </div>
-                    <p>By submitting this form, you agree to Milson is Privacy Policy and Terms and Conditions.</p>
+                    <p>By submitting this form, you agree to Milson UK Privacy Policy and Terms and Conditions.</p>
 
                     <span>continue</span>
                 </div>

@@ -8,7 +8,7 @@ export default function SignUp({ prop, Url }) {
         <img
           src="/img/logo.jpg"
           height={100}
-          width={120}
+          width={150}
           alt="Picture of the author" />
       </div>
       <h5>{prop}</h5>

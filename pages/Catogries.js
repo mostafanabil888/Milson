@@ -13,11 +13,10 @@ export default function Catogries() {
                 <link rel="icon" href="/img/logo.jpg" />
             </Head>
             <div className={Styles.Catogries}>
-                <nav className='d-flex align-items-center justify-content-end'>
-                    <Image alt='logo' className='mt-3 m-auto mx-md-5' src='/img/logo.jpg' width='140' height='100' />
+                <nav className='d-flex align-items-center'>
+                    <img alt='logo' className='mt-3 m-auto mx-md-5' src='/img/logo.jpg' width='160' height='100' />
                 </nav>
-                <h2 className='mt-3 text-center'>Open a free account</h2>
-                <p className='mt-3 d-block text-center'>Start localizing today.</p>
+                <h2 className='mt-3 text-center'>Open a Free Account</h2>
                 <div className={Styles.ChooseCatogry}>
                     <div className={`col-md-5 col-11 ${Styles.box} ${Styles.firstbox}`}>
                     <Link href='/RegisterEnglish'>
@@ -26,7 +25,7 @@ export default function Catogries() {
                                 <BsFillEnvelopeOpenFill />
                                 <div className='ps-4'>
                             <h5>Join to English Department</h5>
-                           <p>Start a localization project with just a click</p>
+                           <p>Start Your Journey To learn English</p>
                                 </div>
                           </div>
                         </a>
@@ -39,7 +38,7 @@ export default function Catogries() {
                                 <BsPeopleFill />
                                 <div className='ps-4'>
                             <h5>Join to Translation Department</h5>
-                           <p>Start a localization project with just a click</p>
+                           <p>Start a Localization Project With Just a Click</p>
                                 </div>
                           </div>
                         </a>

@@ -15,6 +15,9 @@ export default function GetTranslation() {
                         <select>
                             <option>Arabic</option>
                             <option>English</option>
+                            <option>Turkish</option>
+                            <option>French</option>
+                            <option>German</option>
                         </select>
                     </div>
                     <div className='col-lg-6 col-12'>
@@ -22,12 +25,15 @@ export default function GetTranslation() {
                         <select>
                             <option>English</option>
                             <option>Arabic</option>
+                            <option>Turkish</option>
+                            <option>French</option>
+                            <option>German</option>
                         </select>
                     </div>
                 </div>
                 <div className="row my-3">
                     <div className='col-lg-6 col-12'>
-                        <label htmlFor="Translation from">upload file</label>
+                        <label htmlFor="Translation from">Upload File</label>
                         <input type="file"
        id="avatar" name="avatar" />
 

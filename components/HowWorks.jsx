@@ -21,7 +21,7 @@ export default function HowWorks() {
                 <span>2</span>
                 <Image alt="let" src="/Image/let2.svg" width="60" height="37"/>
                 <div className="px-lg-3 p-2 my-4">
-                <h3>Get a quote and submit your projectt</h3>
+                <h3>submit your project and Get a quote</h3>
                 <p>We will assign it to the best translator right away.</p>
                 </div>
               </div>
