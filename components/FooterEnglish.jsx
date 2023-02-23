@@ -6,11 +6,11 @@ export default function FooterEnglish() {
             <div className="container text-center">
                 <img src='/img/payment.png' alt='payment' width='300' />
                 <ul className='fw-bold mt-4'>
-                    <li>MONGLISH ACADEMY UK</li>
-                    <li>Registered in England & Wales- Company Number 14083316</li>
-                    <li>71–75 Shelton Street, Covent Garden, West End London, WC2H 9JQ, UK</li>
+                    <li>MILSON ACADEMY UK</li>
+                    {/* <li>Registered in England & Wales- Company Number 14083316</li>
+                    <li>71/75 Shelton Street, Covent Garden, West End London, WC2H 9JQ, UK</li> */}
                 </ul>
-                <ul>
+                {/* <ul>
                     <li>Monglish Academy UK
 
                     </li>
@@ -21,7 +21,7 @@ export default function FooterEnglish() {
 
                     </li>
                     <li>Email info@monglish.academy</li>
-                </ul>
+                </ul> */}
                 <ul>
                     <li>All online courses are sold in the following currencies </li>
                     <li>(according to the payment currency shown under each course)</li>
@@ -40,7 +40,7 @@ export default function FooterEnglish() {
                     <span>Enroll (Arabic)</span>
                     <span>Careers</span>
                     <span>Contact & Follow Us</span>               
-                <h5 className='mt-4'>©2022 Monglish Academy UK</h5>
+                <h5 className='mt-4'>©2023 MILSON Academy UK</h5>
             </div>
         </footer>
     )

@@ -7,10 +7,9 @@ export default function Video() {
       <div className="d-flex align-items-center justify-content-center">
         <ReactPlayer  url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
       </div>
-      <p className='my-5 fw-bold'>Monglish Academy UK was founded as an opportunity that lights the way for learners, to experience other cultures through language,
-        by enabling them to study English easily, pl</p>
-      <p className='fw-bold'>The academy has prepared various courses to serve its client is goals, whether related to language proficiency, career advancement or career development. Monglish is amongst the leading ESL schools thanks to its exclusive Mongi-Immerse methodology,
-        used in teaching courses by handpicked experts.</p>
+      <p className='my-5  fw-bold '>Milson Academy applies the best world-class educational pedagogy, namely the immersion approach towards language acquisition. Now, wherever you are, we can reach you to make your dream of learning English true.</p>
+      <p className='fw-bold'>Milson Academy applies the best world-class educational pedagogy, namely the immersion approach towards language acquisition. Now, wherever you are, we can reach you to make your dream of learning English true.
+The academy offers a plethora of courses tailored to serve its clients goals, as it customizes its courses content to the individual needs of the learner. Milson is expanding rapidly with great strides into the educational marketplace, thanks to its well-established experience in teaching language.</p>
     </div>
   )
 }

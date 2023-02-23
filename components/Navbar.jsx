@@ -8,7 +8,7 @@ export default function Navbar() {
         <button className={`navbar-toggler ${styles.NavIcon}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse  ${styles.collapse}`} id="navbarSupportedContent">
+        {/* <div className={`collapse navbar-collapse  ${styles.collapse}`} id="navbarSupportedContent">
           <ul className={`navbar-nav me-auto mb-2  mb-lg-0 ${styles.nav}`}>
             <li className="nav-item mt-4 mt-lg-0">
               <Link className="nav-link" aria-current="page" href="/">English</Link>
@@ -26,7 +26,7 @@ export default function Navbar() {
               <Link className="nav-link" href="/">Log Out</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </nav>
     </div>
   )
