@@ -38,7 +38,7 @@ export default function DevlopEng() {
                         <p>At Milson we are on the path to become the best digital academy, one that provides a professional experience in teaching English, to those learners aspiring to enhance their linguistic potential. Our desire to expand globally is being realized through innovating teaching methods, based on international standards, and applying them by a team of experts comprised of native English speakers and Arabs.</p>
                     </div>
                     <div className="col-lg-6 col-12">
-                        <Image width='525' height='525'  src='/img/azzam3.jpg' alt='vission' />
+                        <Image width='525' height='525'  src='/img/Azzam3.jpg' alt='vission' />
                     </div>
                 </div>
                </div>
