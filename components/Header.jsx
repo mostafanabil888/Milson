@@ -7,8 +7,7 @@ import { BsFillPersonFill } from 'react-icons/bs'
 export default function Header() {
     return (
         <header className={Styles.header}>
-            <div className='d-flex align-items-center   p-md-3 p-1'>
-                <div className='col-12'>
+            <div className='w-100'>
                     <div className={Styles.SignInBox}>
                        <Link href='/Register'>
                        <a>
@@ -34,14 +33,13 @@ export default function Header() {
                             </div>
                            <div className={Styles.RegisterBox}>
                             <span>Do not have an account?</span>
-                            <Link href="/R" className='mt-1 m-md-0'>Register</Link>
+                            <Link href="/Register" className='mt-1 m-md-0'>Register</Link>
                            </div>
                             </div>
                         </Form>
                     </div>
                     <Footer />
                 </div>
-            </div>
         </header>
     )
 }

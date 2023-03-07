@@ -1,9 +1,9 @@
 .header {
-    height: 100%;
-    overflow: auto;
-    min-height: calc(100vh - 80px);
+    height: 100vh;
     background-color: rgb(247, 247, 249);
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .SignInBox{
         a{
             color: #000000;

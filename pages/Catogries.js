@@ -12,12 +12,15 @@ export default function Catogries() {
                 <link rel="icon" href="/img/logo.jpg" />
             </Head>
             <div className={Styles.Catogries}>
-                <nav className='d-flex align-items-center'>
+                <nav className='d-flex h-25  align-items-center justify-content-center'>
                     <img alt='logo' className='mt-3 m-auto mx-md-5' src='/img/logo.jpg' width='160' height='100' />
                 </nav>
-                <h2 className='mt-3 text-center'>Open a Free Account</h2>
+               
+               <div className='h-50 w-100 d-flex align-items-center justify-content-center'>
+                    <div className='col-12'>
+                    <h2 className='text-center'>Open a Free Account</h2>
                 <div className={Styles.ChooseCatogry}>
-                    <div className={`col-md-5 col-11 ${Styles.box} ${Styles.firstbox}`}>
+                    <div className={`col-lg-5 col-11  ${Styles.box} ${Styles.firstbox}`}>
                         <Link href='/English'>
                             <a>
                                 <div className='d-flex align-items-center justify-content-center ps-3'>
@@ -30,7 +33,7 @@ export default function Catogries() {
                             </a>
                         </Link>
                     </div>
-                    <div className={`col-md-5 col-11 ${Styles.box} ${Styles.secondbox}`}>
+                    <div className={`col-lg-5 col-11 ${Styles.box} ${Styles.secondbox}`}>
                         <Link href='/Translation'>
                             <a>
                                 <div className='d-flex align-items-center justify-content-center ps-3'>
@@ -44,6 +47,8 @@ export default function Catogries() {
                         </Link>
                     </div>
                 </div>
+                    </div>
+               </div>
 
             </div>
         </>
