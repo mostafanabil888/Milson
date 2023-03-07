@@ -10,7 +10,7 @@ export default function Header() {
             <div className='d-flex align-items-center   p-md-3 p-1'>
                 <div className='col-12'>
                     <div className={Styles.SignInBox}>
-                       <Link href='/Catogries'>
+                       <Link href='/Register'>
                        <a>
                        <div className="d-flex align-items-center  p-3">
                         <BsFillPersonFill  />
@@ -30,11 +30,11 @@ export default function Header() {
                             </Form.Group>
 
                             <div className={Styles.btn}>
-                                <Link href='/Translation'>Sign In</Link>
+                                <Link href='/Catogries'>Sign In</Link>
                             </div>
                            <div className={Styles.RegisterBox}>
                             <span>Do not have an account?</span>
-                            <Link href="/Catogries" className='mt-1 m-md-0'>Register</Link>
+                            <Link href="/R" className='mt-1 m-md-0'>Register</Link>
                            </div>
                             </div>
                         </Form>
