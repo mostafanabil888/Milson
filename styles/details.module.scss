@@ -1,0 +1,29 @@
+.datails{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    h5{
+        color: #FEA116;
+        padding: 1rem 0;
+    }
+    h2{
+        font-family: "Montserrat",sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #0F172B;
+        text-transform: capitalize;
+    }
+    p{
+        color: #666565 ;
+    }
+    h3,h4{
+        padding: 1rem 0;
+        color: #666565;
+        text-transform: capitalize;
+    }
+}

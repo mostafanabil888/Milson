@@ -2,7 +2,6 @@ import '../styles/globals.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect,useState } from 'react';
 import {useRouter} from 'next/router'
-
 function Loading (){
   const router = useRouter();
   const [loading,setloading] = useState(false);
@@ -25,7 +24,7 @@ function Loading (){
     </div>
   )
 }
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component,pageProps: { session, ...pageProps }, }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
@@ -34,7 +33,6 @@ function MyApp({ Component, pageProps }) {
     <>
     <Loading />
 
-       
        <Component {...pageProps} />
 
     </>
