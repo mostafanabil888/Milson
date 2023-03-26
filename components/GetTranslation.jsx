@@ -7,8 +7,44 @@ export default function GetTranslation() {
     const [word_count, setword_count] = useState('')
     const [file, setfile] = useState('')
     const [t_from, sett_from] = useState('')
-    // const [phone, setphone] = useState('')
-    // const router = useRouter()
+  function handleImageUpload(event) {
+    const formData = new FormData();
+    formData.append('image', event.target.files[0]);
+    fetch('https://milsonn.com/api/user/translate/store', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      const imageUrl = data.imageUrl;
+  
+    });
+  }
+  const [formData,setFormData] = useState({
+    t_to:'',
+    t_from:'',
+    word_count:'',
+    file:'',
+    phone:''
+  });
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    setFormData({
+      ...formData,
+      file,
+    });
+  };
+
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const data = new FormData();
@@ -29,7 +65,7 @@ export default function GetTranslation() {
     }
   };
     return (
-        <div className={Styles.GetTranslation}>
+        <div  className={Styles.GetTranslation}>
             <div className="d-flex flex-wrap  align-items-center p-md-5 p-1   justify-content-around">
                 <form onSubmit={handleSubmit} className="traslationbox  col-md-8 col-12" encType="multipart/form-data">
                     <h1 className='text-center text-md-start'>
