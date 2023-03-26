@@ -18,11 +18,10 @@ export default function Login() {
     }
     try {
       const response = await axios.post('https://milsonn.com/api/login', { email,password });
-      if (response.status === 200 && response.data.hasRegistered) {
+      if (response.data.status === true) {
         // Set a session ID cookie and redirect to home page
-      
         router.push('/test');
-      } else {
+      } else{
         setErrorMessage('Invalid email or password');
       }
     } catch (error) {
