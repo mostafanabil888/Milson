@@ -1,18 +1,32 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Styles from '../styles/GetTranslation.module.scss'
 // import axios from 'axios'
 import { AiOutlineArrowRight } from 'react-icons/ai'
+import { useRouter } from 'next/router'
 export default function GetTranslation() {
     const [t_to, sett_to] = useState('')
     const [word_count, setword_count] = useState('')
     const [file, setfile] = useState('')
     const [t_from, sett_from] = useState('')
+    const router = useRouter();
+    useEffect(()=>{
+      if(localStorage.getItem("token") === null)
+      {
+        router.push('/')
+      }
+    })
   function handleImageUpload(event) {
     const formData = new FormData();
+    const token = JSON.stringify(localStorage.getItem("token"))
+    console.log(token)
     formData.append('image', event.target.files[0]);
     fetch('https://milsonn.com/api/user/translate/store', {
       method: 'POST',
-      body: formData
+      headers:{
+        "Content-Type" : "application/json",
+        "Authorization":`Bearer ${localStorage.getItem("token")}`
+      },
+      body: formData,
     })
     .then(response => response.json())
     .then(data => {
@@ -56,7 +70,10 @@ export default function GetTranslation() {
     try {
       const response = await fetch('https://milsonn.com/api/user/translate/store', {
         method: 'POST',
-        body: data,
+        body: data, 
+        headers:{
+          Authorization: `Bearer ${localStorage.getItem("token")}`,
+        }  
       });
       const json = await response.json();
       console.log(json);
